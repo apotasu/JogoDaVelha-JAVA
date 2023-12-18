@@ -4,7 +4,7 @@ public class Main {
     static Scanner scn = new Scanner(System.in);
     public static void main(String[] args) {
         String[][] matriz = new String[3][3];
-        System.out.println("Jogo da velha");
+        System.out.println("Jogo da velha!");
         while(!vitoriaXO(matriz)){
             JogodaVelhaX(matriz);
             formatacao(matriz);
